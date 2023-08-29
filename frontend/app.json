@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "owner": "my-atlas",
+    "name": "My Atlas",
+    "slug": "my-atlas-frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoNT.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E5E5E5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rosalesi.frontend"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28e2d35e-4536-4c9e-96a9-3ee847f0f0ee"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-health",
+        {
+          "isClinicalDataEnabled": true,
+          "healthSharePermission": "Custom health share permission",
+          "healthUpdatePermission": "Custom health update permission"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+export const AtlasLogo = require('./logoNT.png');
